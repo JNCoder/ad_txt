@@ -55,5 +55,3 @@ v.qq.com,sports.qq.com##+js(nano-sib, \u5012\u8ba1\u65f6)
 bilibili.com##.gg-floor-module,#slide_ad
 ||api.bilibili.com/x/web-show/res/loc?pf=$~script
 ||hdslb.com/bfs/sycp/creative_img/$image
-acfun.cn##.pause-display-container,#ad-comment,#ad-player-view
-||aixifan.com/static/*/appGuide/
