@@ -1,0 +1,57 @@
+! Youtube
+youtube.com###contents>ytd-search-pyv-renderer
+youtube.com###video-masthead
+youtube.com###masthead-ad
+m.youtube.com###koya_child_6
+!m.youtube.com##._menb>._mab:nth-child(1)
+||youtube.com/*=adunit&
+||youtube.com/*&yt_ad
+||youtube.com/get_midroll_info?
+/googleads.$~script,domain=~googleads.github.io
+/pagead/lvz?
+||google.com/pagead/
+||static.doubleclick.net^$domain=youtube.com
+||youtube.com/get_midroll_
+||youtube.com/api/stats/ads
+||youtube.com/pagead/adview
+||yt3.ggpht.com^
+||youtube.com/pcs/activeview
+||youtube.com/get_video_info
+||youtube.com/embed/*&origin=$domain=ck101.com
+||youtube.com/iframe_api$domain=nownews.com
+
+
+
+! youku,iqiyi,qq,bilibili
+v.youku.com##.control-phonewatch,#right-title-ad-banner
+!v.youku.com##+js(nano-stb)
+||atm.youku.com/
+||cibntv.net/youku/$media
+||valipl.cp31.ott.cibntv.net/$media
+|https://static.youku.com/index/js/ikuAdapterNew.js
+|https://js.ykimg.com/youku/dist/js/lib/ikuAdapterNew.js
+!||ykimg.com/material/$image
+!youku.com##.ad-wrap
+||sealine.youku.com/yk/*callback=adpagesdk$script
+iqiyi.com##div[data-adzone],#block-V
+!iqiyi.com##+js(nano-sib)
+iqiyi.com##+js(set, Object.prototype.parseXML, noopFunc)
+!||t7z.cupid.iqiyi.com/show$script,important
+||static.iqiyi.com/js/common/mars_v.js$script
+||iqiyi.com/videos/other/20$xmlhttprequest,object-subrequest
+||iqiyipic.com/image/20*_100000$image
+||ssports.iqiyi.com/app/$object-subrequest
+qq.com##.mod_ad
+v.qq.com,sports.qq.com##+js(json-prune,ad,vinfo)
+v.qq.com,sports.qq.com##+js(nano-sib, \u5012\u8ba1\u65f6)
+@@||video.qq.com/fcgi-bin/
+||mark.l.qq.com/fcgi-bin/get_video_mark_all?idlist=
+||adss.video.qq.com/
+||gtimg.com/qqlive/
+||miaozhen.com/
+||reachmax.cn/
+||tencentmind.com/
+||xtgreat.com/
+bilibili.com##.gg-floor-module,#slide_ad
+||api.bilibili.com/x/web-show/res/loc?pf=$~script
+||hdslb.com/bfs/sycp/creative_img/$image
